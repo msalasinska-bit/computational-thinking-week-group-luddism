@@ -1,4 +1,16 @@
-def solution_station_4(num):
+def solution_station_4(num=None):
+    # Check if num is None
+    if num is None:
+        print("Error: No number provided.")
+        return None
+
+    # Convert string input to integer if necessary
+    try:
+        num = int(num)
+    except ValueError:
+        print("Error: Invalid input. Please provide an integer.")
+        return None
+
     if num <= 1:
         return False
     if num <= 3:
@@ -12,8 +24,8 @@ def solution_station_4(num):
         i += 6
     return True
 
-test_numbers = [10, 87, 85, 22, 81, 46, 30, 79, 22, 2, 19, 32, 86, 96, 27, 64, 98, 53]
-results = {num: solution_station_4(num) for num in test_numbers}
-print(results)
 
-print(solution_station_4())
+# Example call without an argument and with a non-integer string
+print(solution_station_4())  # This will now handle the case with no input
+
+
