@@ -3,6 +3,7 @@ from file_david import david
 from filejosy import josy 
 from filealva import alva 
 from fileadam import adam
+from filedavidE import davide
 
 def group():
     print("This is Team Luddism. We are:")
@@ -11,6 +12,7 @@ def group():
     print(josy())
     print(alva())
     print(adam())
+    print(davide())
 
 group()
 
