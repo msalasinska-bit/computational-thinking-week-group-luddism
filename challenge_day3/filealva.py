@@ -1,1 +1,2 @@
-print("alvachen")
+def alva():
+    return("alvachen")

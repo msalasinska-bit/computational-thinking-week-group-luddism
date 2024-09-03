@@ -1,1 +1,2 @@
-print("David-Liebmann")
+def david():
+    return("David-Liebmann")

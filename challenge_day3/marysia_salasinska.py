@@ -1,1 +1,2 @@
-print("Marysia_Sałasińska")
+def marysia():
+    return("Marysia_Sałasińska")

@@ -7,12 +7,6 @@ from filedavidE import davide
 
 def group():
     print("This is Team Luddism. We are:")
-    print(marysia())
-    print(david())
-    print(josy())
-    print(alva())
-    print(adam())
-    print(davide())
-
+    print(marysia(),",", david(), ",",josy(), ",",alva(), ",",adam(), "and finally",davide())
 group()
 
