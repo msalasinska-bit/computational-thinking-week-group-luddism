@@ -22,4 +22,4 @@ test_numbers = {
 }
 
 
-print(solution_station_1())
+print(solution_station_1('87'))
