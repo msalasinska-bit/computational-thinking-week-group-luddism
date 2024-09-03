@@ -1,21 +1,16 @@
 import sympy as sp
 
-def solution_station_7():
+def solution_station_7(equation):
+    
+
     # Define the variables
-    a, b, c, d, e = sp.symbols('a b c d e')
+    a=3
+    b=-1
+    c=4
+    d=7
+    e=0.5
 
-    # Define the equations
-    eq1 = sp.Eq(b * c + e + d, 3.5)
-    eq2 = sp.Eq(a * c + d, 19)
-    eq3 = sp.Eq(d+b+e, 6.5)
-    eq4 = sp.Eq(e*b*c, -2)
-    eq5 = sp.Eq(c+e+a, 7.5)
-    eq6 = sp.Eq(e*b, -0.5)
+    # Solve the equation
+    solution = eval(equation)
+    return float(solution)
 
-
-    # Solve the equations
-    solution = sp.solve((eq1, eq2, eq3, eq4, eq5, eq6), (a, b, c, d, e))
-
-    return(solution)
-
-print(solution_station_7())
